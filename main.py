@@ -50,18 +50,17 @@ def update_player(player_color, player_coords, player_velocity, scr_h, scr_w):
 
 # Set up the drawing window
 
-move_speed = 5
 screen_height = 1000
 screen_width = 750
 screen_size = (screen_width, screen_height + screen_height // 10)
 quarter_height = screen_height//4
 quarter_width = screen_width//4
 coords = (quarter_height * 2, quarter_width * 2)
-frames_per_second = 50
-player_count = 3
+frames_per_second = 30
+player_count = 15
 max_velo = 5
 max_accel = 2
-radius = 15
+radius = 12
 
 font = pygame.font.Font(pygame.font.get_default_font(), 18)
 
